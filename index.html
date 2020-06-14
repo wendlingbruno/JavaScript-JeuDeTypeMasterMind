@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="jeujava.js"></script> <!-- va appeler le javascript jeujava.js -->
+        <title>Jeu Bulls And Cows</title>
+    </head>
+    <body>
+        <section>
+            <article>
+                <h1>Jeu Bulls And Cows</h1>
+                <p>
+                    Vous devez trouver 4 chiffres.
+                </p>
+                <form name="myform" action="">
+                    Reponse : <input type="number" name="test" autofocus/> <!-- type number pour que l'utilisateur ne puisse rentrer que des chiffres -->
+                    <input type="button" value="Tester" onclick="Jeu();"/>
+                </form>
+                <div id='Donnee'></div>  <!-- utilisé pour indiquer certaines infos à l'utilisateur -->
+            </article>
+            <article>
+                <h2>Les règles</h2>
+                <p>
+                    Pour jouer au Bulls And Cows, rien de plus simple !
+                </p>
+                <p>
+                    Votre objectif, trouver une combinaison de 4 chiffres en 3 essais maximum ! Il ne peut y avoir de doublon dans votre réponse.
+                </p>
+                <p>
+                    Lors de votre réponse, vous allez savoir combien de Bulls et combien de Cows sont présents dans votre réponse. Cela fera appel à votre réflexion pour trouver la bonne réponse. Voyez ci-dessous la définition de Bulls et de Cows.
+                </p>
+                <p>
+                    <strong>Bulls :</strong> Cela veut dire que certains de vos chiffres sont placés au bon endroit.<br/>
+                    <strong>Cows :</strong> Cela veut dire que certains de vos chiffres sont justes, mais qui ne sont pas placés au bon endroit.
+                </p>
+                <p>
+                    Bonne chance !
+                </p>
+            </article>
+        </section>
+        <footer>
+            Cette version web créée par Bruno Wendling à des buts de pratiquer le JavaScript. <!-- pas encore eu de cours de JS pendant la formation (ça va arriver, je n'ai qu'une semaine de cours pour l'instant), ce jeu est totalement un projet personnel en autodidacte. Des erreurs bêtes peuvent donc être présentes. -->
+        </footer>
+    </body>
+</html>
